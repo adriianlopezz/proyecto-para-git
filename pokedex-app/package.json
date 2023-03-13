@@ -1,0 +1,37 @@
+{
+  "name": "pokedex-app",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://adriianlopezz.github.io/Proyecto-pokedex.git",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages –d build",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.2.3",
+    "eslint": "^8.36.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2",
+    "sort-by": "^0.0.2",
+    "standard": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+body {
+    background: url('../img/estadiopoke.jpg') no-repeat center/cover;
+    height: 100%;
+    background-attachment: fixed;
+}
